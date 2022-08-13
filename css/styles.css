@@ -72,6 +72,7 @@ letter-spacing: 0.03em;
 }
 .contacts-nav .list {
     color: var(--primary-text-color);
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:focus,
@@ -159,6 +160,9 @@ letter-spacing: 0.03em;
 .team-section {
     background-color: var(--secondaty-bg-color);
 }
+.team .list {
+    background-color: var(--primary-bg-color);
+}
 .team-item-text {
     font-weight: 400;
     font-size: 16px;
@@ -170,7 +174,7 @@ letter-spacing: 0.03em;
 .footer-section {
     background-color: var(--primary-dark-color);
 }
-.adress-nav-list .list {
+.adress-nav-list .link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -190,5 +194,37 @@ letter-spacing: 0.03em;
     
 }
 
+.adress-nav-list .link:hover,
+.adress-nav-list .link:focus {
+    color: var(--primery-accent-color);
+}
 
-    
+    /*=========Portfolio========  */
+    .works-menu,
+    .works-content {
+        list-style: none;
+    }
+    .works-menu .menu-btn {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        background-color: var(--secondaty-bg-color);
+    }
+    .menu-btn:hover,
+    .menu-btn:focus {
+        color: var(--primary-bg-color);
+        background-color: var(--primery-accent-color);
+    }
+    .work-content-item .title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+    }
+    .work-content-item .text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.88;
+    }
